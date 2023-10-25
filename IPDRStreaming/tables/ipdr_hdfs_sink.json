@@ -1,0 +1,20 @@
+{
+  "metadata" : {
+    "schema.0.data-type" : "TIMESTAMP(3) NOT NULL",
+    "schema.2.name" : "cmMacAddr",
+    "format" : "csv",
+    "schema.1.name" : "window_end",
+    "schema.4.name" : "downstream_oct",
+    "schema.1.data-type" : "TIMESTAMP(3) NOT NULL",
+    "schema.3.data-type" : "BIGINT",
+    "path" : "hdfs:///tmp/ipdr_summary",
+    "connector" : "filesystem",
+    "schema.2.data-type" : "VARCHAR(2147483647)",
+    "schema.3.name" : "upstream_oct",
+    "schema.4.data-type" : "BIGINT",
+    "schema.0.name" : "window_start"
+  },
+  "type" : "ssb",
+  "table_name" : "ipdr_hdfs_sink",
+  "transform_code_b64_encoded" : false
+}

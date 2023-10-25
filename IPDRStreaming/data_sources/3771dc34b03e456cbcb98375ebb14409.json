@@ -1,0 +1,12 @@
+{
+  "id" : "3771dc34b03e456cbcb98375ebb14409",
+  "name" : "IPDR-Kafka-SSL",
+  "type" : "kafka",
+  "properties" : {
+    "brokers" : "pnovokshonov-1.pnovokshonov.root.hwx.site:9093,pnovokshonov-2.pnovokshonov.root.hwx.site:9093,pnovokshonov-3.pnovokshonov.root.hwx.site:9093",
+    "protocol" : "ssl",
+    "mechanism" : null,
+    "ssl.truststore.location" : "/var/lib/cloudera-scm-agent/agent-cert/cm-auto-global_truststore.jks"
+  },
+  "custom_truststore" : true
+}

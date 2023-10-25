@@ -1,0 +1,11 @@
+{
+  "id" : "433ac127f90d4577891607c81cc7933e",
+  "name" : "IPDR-Kafka",
+  "type" : "kafka",
+  "properties" : {
+    "brokers" : "pnovokshonov-1.pnovokshonov.root.hwx.site:9092,pnovokshonov-2.pnovokshonov.root.hwx.site:9092,pnovokshonov-3.pnovokshonov.root.hwx.site:9092",
+    "protocol" : "plaintext",
+    "mechanism" : null
+  },
+  "custom_truststore" : false
+}

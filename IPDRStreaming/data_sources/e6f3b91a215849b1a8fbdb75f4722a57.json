@@ -1,0 +1,13 @@
+{
+  "id" : "e6f3b91a215849b1a8fbdb75f4722a57",
+  "name" : "Schema Registry",
+  "type" : "catalog",
+  "properties" : {
+    "table_filters" : [ ],
+    "catalog_type" : "registry",
+    "kafka.provider.id" : "3ea47e6d069e3a0f980a3d99c2191d44",
+    "registry.address" : "https://pnovokshonov-1.pnovokshonov.root.hwx.site:7790/api/v1",
+    "registry.ssl.enabled" : true
+  },
+  "custom_truststore" : false
+}

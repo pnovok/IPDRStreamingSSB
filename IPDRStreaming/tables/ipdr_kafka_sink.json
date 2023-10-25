@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "schema.0.data-type" : "TIMESTAMP(3)",
+    "schema.2.name" : "cmMacAddr",
+    "format" : "json",
+    "schema.1.name" : "window_end",
+    "schema.4.name" : "usage",
+    "schema.1.data-type" : "TIMESTAMP(3)",
+    "properties.bootstrap.servers" : "pnovokshonov-1.pnovokshonov.root.hwx.site:9092,pnovokshonov-2.pnovokshonov.root.hwx.site:9092,pnovokshonov-3.pnovokshonov.root.hwx.site:9092",
+    "schema.3.data-type" : "VARCHAR(2147483647)",
+    "connector" : "kafka",
+    "schema.2.data-type" : "VARCHAR(2147483647)",
+    "schema.3.name" : "dsScn",
+    "topic" : "ipdr_output",
+    "schema.4.data-type" : "BIGINT",
+    "schema.0.name" : "window_start"
+  },
+  "type" : "ssb",
+  "table_name" : "ipdr_kafka_sink",
+  "transform_code_b64_encoded" : false
+}

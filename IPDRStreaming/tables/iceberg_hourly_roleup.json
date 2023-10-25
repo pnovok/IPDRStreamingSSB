@@ -1,0 +1,27 @@
+{
+  "metadata" : {
+    "schema.0.data-type" : "TIMESTAMP(6)",
+    "catalog-database" : "default",
+    "write.upsert.enabled" : "true",
+    "schema.2.name" : "cmMacAddr",
+    "format-version" : "2",
+    "ssb-hive-catalog" : "Hive",
+    "schema.1.name" : "window_end",
+    "catalog-name" : "Hive",
+    "schema.4.name" : "sum2",
+    "schema.1.data-type" : "TIMESTAMP(6)",
+    "engine.hive.enabled" : "true",
+    "schema.3.data-type" : "BIGINT",
+    "hive-conf-dir" : "/etc/hive/conf",
+    "connector" : "iceberg",
+    "schema.2.data-type" : "VARCHAR(2147483647)",
+    "schema.3.name" : "sum1",
+    "catalog-table" : "iceberg_hourly_roleup",
+    "catalog-type" : "hive",
+    "schema.4.data-type" : "BIGINT",
+    "schema.0.name" : "window_start"
+  },
+  "type" : "ssb",
+  "table_name" : "iceberg_hourly_roleup",
+  "transform_code_b64_encoded" : false
+}

@@ -1,0 +1,25 @@
+{
+  "metadata" : {
+    "properties.auto.offset.reset" : "earliest",
+    "schema.0.data-type" : "TIMESTAMP(6)",
+    "schema.2.name" : "cmMacAddr",
+    "format" : "json",
+    "schema.1.name" : "window_end",
+    "scan.startup.mode" : "earliest-offset",
+    "schema.4.name" : "sum2",
+    "schema.1.data-type" : "TIMESTAMP(6)",
+    "properties.bootstrap.servers" : "pnovokshonov-1.pnovokshonov.root.hwx.site:9092,pnovokshonov-2.pnovokshonov.root.hwx.site:9092,pnovokshonov-3.pnovokshonov.root.hwx.site:9092",
+    "schema.3.data-type" : "BIGINT",
+    "connector" : "kafka",
+    "schema.2.data-type" : "VARCHAR(2147483647)",
+    "schema.3.name" : "sum1",
+    "properties.request.timeout.ms" : "120000",
+    "properties.transaction.timeout.ms" : "900000",
+    "topic" : "ipdr-hourly_roleup",
+    "schema.4.data-type" : "BIGINT",
+    "schema.0.name" : "window_start"
+  },
+  "type" : "ssb",
+  "table_name" : "hourly_roleup",
+  "transform_code_b64_encoded" : false
+}
